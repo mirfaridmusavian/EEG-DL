@@ -1,0 +1,5 @@
+For this file, we will download all the raw EEG MI data from the EEG Motor Movement/Imagery Dataset, you can visit [here](https://archive.physionet.org/pn4/eegmmidb/) to download them. Or, alternatively, you can use [MIND_Get_EDF.py](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/EEG_Motor_Movement_Imagery_Dataset/MIND_Get_EDF.py) script to download all the files. The raw EEG signals will in .edf format. 
+
+And then, we will use [Extract-Raw-Data-Into-Matlab-Files.py](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/EEG_Motor_Movement_Imagery_Dataset/Extract-Raw-Data-Into-Matlab-Files.py) script to extract the raw data into .m Matlab files. 
+
+Finally, we can preprocess the saved Matlab files using [these scripts](https://github.com/SuperBruceJia/EEG-DL/tree/master/Preprocess_EEG_Data).
